@@ -54,10 +54,10 @@ Qual será o valor impresso no console se a entrada do usuário for: `"Subi num 
 Em seguida, Imprima no console a seguinte mensagem:
 O e-mail emailDoUsuario foi cadastrado com sucesso. Seja bem-vinda(o), nomeDoUsuario!*/
 
-/*const nomeDoUsuario = prompt("Por favor, diga seu nome.")
+const nomeDoUsuario = prompt("Por favor, diga seu nome.")
 const emailDoUsuario = prompt("Qual é o seu E-mail?")
 const messagemDeBoasVindas = `O e-mail ${emailDoUsuario} foi cadastrado com sucesso. Seja bem-vinda(o), ${nomeDoUsuario}!`
-console.log(messagemDeBoasVindas)*/
+console.log(messagemDeBoasVindas)
 
 /* Questão 2- Faça um programa que contenha um array com 5 das suas comidas preferidas, armazenado em uma variável. 
 Em seguida, siga os passos:
@@ -94,6 +94,43 @@ const quintaComida = minhasComidasPreferidas [4]
 console.log(quintaComida)
 
 // c
-let comidaDoUsuario = prompt("Qual é a sua comida preferida?")
-console.log(comidaDoUsuario)
 
+const comida ="Qual a sua comida preferida?"
+minhasComidasPreferidas [1] = prompt(comida)
+console.log(minhasComidasPreferidas)
+
+
+ 
+/* Questão 3- Faça um programa, seguindo os passos:
+a) Crie um array vazio e guarde-o em uma variável, chamada `listaDeTarefas`
+
+b) Pergunte ao usuário 3 tarefas que ele precise realizar no dia e armazene-as, uma por uma, no array
+
+c) Imprima o array no console
+
+d) Peça ao usuário que digite o **índice** de uma tarefa que ele já realizou: 0, 1 ou 2 
+
+e) Remova da lista o item de índice que o usuário escolheu.
+
+f) Imprima o array no consoleImprima no console*/
+
+// a
+let listaDeTarefas = []
+// b
+let primeiraTarefa = prompt("Diga uma tarefa que você precisa realizar no seu dia.")
+let segundaTarefa = prompt("Diga outra tarefa que você precisa realizar no seu dia.")
+let terceiraTarefa = prompt("Diga mais uma tarefa que você precisa realizar no seu dia.")
+// c
+listaDeTarefas.push(primeiraTarefa,segundaTarefa,terceiraTarefa)
+console.log(listaDeTarefas)
+//d
+let realizado = prompt("Qual tarefa você ja realizou hoje? Responda com 0 para a primeira; com 1 para a segunda e 2 para a terceira.")
+let resultado = Number(realizado)
+console.log(resultado)
+// e
+listaDeTarefas.splice(resultado, 1)
+// f
+console.log(listaDeTarefas)
+
+
+// Fim!!!
