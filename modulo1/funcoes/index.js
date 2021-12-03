@@ -41,8 +41,38 @@ function dadosColetados(nomeUsuario, idadeUsuario, enderecoUsuario, profissaoUsu
 
 // Questão 2
 
+// A
+const somaDeDoisNumeros = (numero1, numero2) => {
+   const  soma = numero1 + numero2
 
+   return soma
+}
+  const resultado = somaDeDoisNumeros(Number(prompt("Escreva um número")), Number(prompt("Escreva outro número")))
+  
+  console.log("A soma do número 1 + o número 2 é:", resultado)
 
+  // B
+  const numeroMaior = (numero1, numero2) => {
+    const  maior = numero1 >= numero2
+ 
+    return maior
+ }
+   const maiorOuIgual = numeroMaior(Number(prompt("Escreva um número")), Number(prompt("Escreva outro número")))
+   
+   console.log("O primeiro número é maior ou igual o segundo?", maiorOuIgual)
+
+// C
+const numeroPar = (numeroInserido) => {
+    const  par = (numeroInserido % 2) ===0
+ 
+    return par
+ }
+   const ePar = numeroPar(Number(prompt("Escreva um número")))
+   
+   console.log("O número inserido é par?", ePar)
+
+   // D
+   
 
 
 
