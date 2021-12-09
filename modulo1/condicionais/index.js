@@ -42,4 +42,17 @@
 
 
 // Exercícios de escrita de código
+const array = [1, 2, 3, 4, 5]
+let novaLista = []
+let i = 0
+while ( i < Array.length) {
+    let novoItem ="O elemento " + i.toString() + "é"
+    novaLista.push(novoItem)
+    i++
+}
 
+for (let i = 0; i < Array.length; i++ ) {
+    if (Array.indexOf( arry[ i ]) === i) {
+        models.push(array[ i ]);
+    }
+}
