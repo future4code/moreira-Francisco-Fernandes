@@ -1,0 +1,92 @@
+body {
+    background-color: cornflowerblue;
+}
+header {
+    background-color: black;  
+    color: deepskyblue;
+    height: 120px;         
+} 
+.container {
+    display: flex;
+    align-items: center;
+    margin: 5px 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+header > div > p > img {
+    width: 75px;
+    height: 75px;
+}
+nav {
+    text-align: right;
+    margin: 5px 10px;
+    font-size: 20px;
+}
+section {
+    background-color: none;
+}
+.minhaFoto {
+    width: 350px;
+    height: 400px;
+    margin-top: 10px;
+}
+#minhaFoto {
+    text-align: center;
+}
+section > div > h2 {
+    text-align: center;
+}
+#sobreMim {
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#conteudoDoSite {
+    color:black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.corProjeto {
+    color: yellow;
+}
+ul {
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+}
+article {
+    background-color: none;
+}
+
+aside {
+    background-color: none;
+}
+
+.formulario {
+    text-align: center;
+}
+footer {
+    background-color: gray;
+    color: blue;
+    text-align: center;
+}
+footer > a > img {
+    width: 75px;
+    height: 75px;
+}
+#todosite {
+    text-align: center;
+    color: yellow;
+}
+#PPtudo {
+    text-align: center;
+    color: yellow;
+}
+.descricao {
+    font-size: 20px;
+}
+.corProjeto {
+    font-size: 20px;
+}
