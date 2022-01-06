@@ -16,30 +16,31 @@ header {
     padding: 5px 10px;
     margin-right: 50px;
     width: 100px;
-}
-    
+}   
 body {
-    background-color: paleturquoise;
-}
+    background-color: #0483a3;
+}   
 main {
-    background-color: cadetblue;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
-    row-gap: 20px;
     gap: 20px;
-    margin: 20px;
-
+    margin: 25px;   
+}
+@media screen and (max-device-width: 600px) {
+    main {
+      grid-template-columns: 1fr;
 }
 .galeria {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;   
 }
 img {
-    height: 300px;
-    width: 250px;
+    width: 100%;
+    height: 100%;
 }
 .RodaPe {
     background-color: black;
@@ -47,7 +48,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    margin-top: 200px;
 }
 h2 {
     color: blanchedalmond;
+}
+.video {
+    width: 100%;
 }
