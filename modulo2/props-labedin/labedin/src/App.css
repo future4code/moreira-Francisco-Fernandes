@@ -26,3 +26,10 @@ h2 {
   justify-content: center;
   margin-bottom: 20px;
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+  .page-section-container {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
