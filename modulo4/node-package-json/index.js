@@ -23,16 +23,3 @@ console.log(`Olá, ${nome}! Você tem ${idade} anos.`)
 // C)
 let idadefutura = idade + 7
 console.log(`Olá, ${nome}! Você tem ${idade} anos. Em sete anos você terá ${idadefutura} anos.`)
-
-
-// Exercício 2
-
-
-
-
-
-
-
-// Exercício 3
-
-// Exercício 4
